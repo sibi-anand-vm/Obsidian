@@ -1,0 +1,224 @@
+{
+  "main": {
+    "id": "c1cbfb77fc457301",
+    "type": "split",
+    "children": [
+      {
+        "id": "30d58264635eda1c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8416af4c1c03861c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/Inner Classes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Inner Classes"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7c998e862811fdab",
+    "type": "split",
+    "children": [
+      {
+        "id": "3446e62ff525c130",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d82236621e7cd972",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTimeReverse"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "226ca2e7f6c91674",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "e0a809b510e8fe1a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "4541a3270d4ba318",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Django CRM/11.Individual record.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "11.Individual record"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c09058c8445c3682",
+    "type": "split",
+    "children": [
+      {
+        "id": "43f7c84a89e7708f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6b012986baabf517",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "VLSI/Unit 5.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Unit 5"
+            }
+          },
+          {
+            "id": "82556691119f4fec",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "VLSI/Unit 5.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Unit 5"
+            }
+          },
+          {
+            "id": "879525299ccc1b37",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "07bb86b33a466c6b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "VLSI/Unit 5.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Unit 5"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "remotely-save:Remotely Save": false
+    }
+  },
+  "active": "8416af4c1c03861c",
+  "lastOpenFiles": [
+    "Java/CastingandObjectmethods.md",
+    "Java/Abstraction.md",
+    "Java/Inner Classes.md",
+    "Java/DMD and final keyword.md",
+    "Java/Access Modifiers and Packages.md",
+    "Java/Polymorphism.md",
+    "Java/Inheritance.md",
+    "Java/this() and super().md",
+    "Java/Encapsulation.md",
+    "Java/Static keyword.md",
+    "Java/Constructors.md",
+    "Java/Strings Methods.md",
+    "Java/Array Methods.md",
+    "Java/Type Conversion & Casting.md",
+    "Java/Classes and Objects.md",
+    "Java/Array.md",
+    "Java/Scanner Class.md",
+    "Java/Loops.md",
+    "Java/Conditional Statement.md",
+    "Java/Operators.md",
+    "Java/Data Types & Variables.md",
+    "Pasted image 20241225184423.png",
+    "Pasted image 20241225184344.png",
+    "Pasted image 20241225184301.png",
+    "Java/Java Flow.md",
+    "Screenshot from 2024-12-25 11-48-00.png",
+    "Pasted image 20241225113407.png",
+    "Java",
+    "Django CRM/7.Register user.md",
+    "Django CRM/11.Individual record.md",
+    "Django CRM/10.Bootstrap Tables.md",
+    "Django CRM/1.Install & setup.md",
+    "Pasted image 20241224184228.png",
+    "Pasted image 20241224184108.png",
+    "Pasted image 20241224184004.png",
+    "Pasted image 20241224183647.png",
+    "Pasted image 20241224183313.png",
+    "Django CRM",
+    "DSP",
+    "IOT",
+    "VLSI"
+  ]
+}
