@@ -59,3 +59,54 @@ public class StringExample {
 }
 
 ```
+
+## <font color="#f79646">Essential String Methods</font>
+
+```
+public class StringMethodsDemo {
+    public static void main(String[] args) {
+        String str = "  Hello, Java World!  ";
+
+        // Trim leading and trailing spaces
+        String trimmedStr = str.trim();
+        System.out.println("Trimmed: " + trimmedStr);
+
+        // Convert to lowercase and uppercase
+        System.out.println("Lowercase: " + trimmedStr.toLowerCase());
+        System.out.println("Uppercase: " + trimmedStr.toUpperCase());
+
+        // Find the length
+        System.out.println("Length: " + trimmedStr.length());
+
+        // Access character at specific index
+        System.out.println("Character at index 7: " + trimmedStr.charAt(7));
+
+        // Check if the string contains a substring
+        System.out.println("Contains 'Java': " + trimmedStr.contains("Java"));
+
+        // Replace characters
+        String replacedStr = trimmedStr.replace('o', '0');
+        System.out.println("Replaced 'o' with '0': " + replacedStr);
+
+        // Extract a substring
+        System.out.println("Substring (7, 11): " + trimmedStr.substring(7, 11));
+
+        // Split the string
+        String[] words = trimmedStr.split(" ");
+        System.out.println("Words:");
+        for (String word : words) {
+            System.out.println(word);
+        }
+
+        // Check equality
+        String anotherStr = "HELLO, JAVA WORLD!";
+        System.out.println("Equals: " + trimmedStr.equals(anotherStr)); // Case-sensitive
+        System.out.println("EqualsIgnoreCase: " + trimmedStr.equalsIgnoreCase(anotherStr));
+
+        // Find index of a character
+        System.out.println("Index of 'J': " + trimmedStr.indexOf('J'));
+        System.out.println("Last index of 'o': " + trimmedStr.lastIndexOf('o'));
+    }
+}
+
+```

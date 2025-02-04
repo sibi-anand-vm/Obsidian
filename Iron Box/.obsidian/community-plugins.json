@@ -1,5 +1,6 @@
 [
-  "remotely-save",
   "highlightr-plugin",
-  "obsidian-advanced-codeblock"
+  "editing-toolbar",
+  "code-styler",
+  "execute-code"
 ]

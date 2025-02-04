@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "30d58264635eda1c",
+        "id": "e604ebd54fcc9b76",
         "type": "tabs",
         "children": [
           {
-            "id": "8416af4c1c03861c",
+            "id": "28ac4a2a846f39cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Collections/Comparable and Comparator.md",
+                "file": "NextJS/12.Block Access and read Session data.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Comparable and Comparator"
+              "title": "12.Block Access and read Session data"
             }
           }
         ]
@@ -40,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTimeReverse"
+                "sortOrder": "byCreatedTimeReverse",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -173,57 +174,56 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "remotely-save:Remotely Save": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "8416af4c1c03861c",
+  "active": "28ac4a2a846f39cb",
   "lastOpenFiles": [
-    "Pasted image 20241230224409.png",
-    "Java/Collections/DS Collections.md",
-    "Java/Collections/Comparable and Comparator.md",
-    "Pasted image 20241230224027.png",
+    "NextJS/11.Clerk Authentication.md",
+    "NextJS/12.Block Access and read Session data.md",
+    "Pasted image 20250204103710.png",
+    "NextJS/10.Server Actions.md",
+    "Pasted image 20250204073028.png",
+    "NextJS/9.Loading and Error.md",
+    "Pasted image 20250204072118.png",
+    "Pasted image 20250203192337.png",
+    "NextJS/8.Data Fetching.md",
+    "Pasted image 20250203150414.png",
+    "Pasted image 20250203150059.png",
+    "NextJS/7.Route Handlers.md",
+    "Pasted image 20250202190839.png",
+    "Pasted image 20250202181400.png",
+    "NextJS/6.usePathname and useRouter.md",
+    "NextJS/4.Routing.md",
+    "NextJS/5.Layout.md",
+    "Pasted image 20250202170043.png",
+    "Pasted image 20250202165611.png",
+    "NextJS/3.Components.md",
+    "NextJS/2.Components Architecture.md",
+    "NextJS/1.Setup Project.md",
+    "Bootstrap/Bootstrap.md",
+    "NextJS",
+    "Aptitude/Time and work.md",
+    "Java/Advanced/CastingandObjectmethods.md",
+    "Java/Advanced/DMD and final keyword.md",
+    "Untitled/Java.md",
+    "Java/Basics/Data Types & Variables.md",
+    "Untitled/Untitled",
+    "Java/Basics/Java Flow.md",
+    "Java/Arrays/Array.md",
+    "DSP/Unit 2.md",
+    "Django CRM/2.MySQL Configuration.md",
+    "Aptitude",
+    "Django CRM/1.Install & setup.md",
+    "Java/Multithreading/Race Condition.md",
+    "Bootstrap",
+    "Java/Basics/Loops.md",
     "Java/Advanced/Iterator.md",
     "Java/Collections",
-    "Java/Multithreading/Race Condition.md",
-    "Java/Multithreading/Threads.md",
-    "Java/Advanced/Exception Handling.md",
     "Java/Multithreading",
-    "Pasted image 20241230152331.png",
-    "Java/Advanced/Lambda Expressions.md",
-    "Pasted image 20241230003346.png",
-    "Java/OOPS/Functional and Marker Interface.md",
-    "Java/Advanced/Annotations.md",
-    "Java/Advanced/Access Modifiers and Packages.md",
-    "Java/Advanced/DMD and final keyword.md",
-    "Java/Advanced/Enum.md",
-    "Java/OOPS/Interface.md",
-    "Java/Arrays/Array.md",
-    "Java/Arrays/Array Methods.md",
-    "Django CRM/11.Individual record.md",
     "Java/Strings",
     "Java/Arrays",
     "Java/Advanced",
-    "Java/OOPS",
-    "Java/Basics",
-    "Django CRM/1.Install & setup.md",
-    "Java/Basics/Data Types & Variables.md",
-    "Java/Advanced/Inner Classes.md",
-    "Java/Advanced/CastingandObjectmethods.md",
-    "Java/OOPS/Abstraction.md",
-    "Java/OOPS/Polymorphism.md",
-    "Java/OOPS/Inheritance.md",
-    "Java/Basics/this() and super().md",
-    "Java/OOPS/Encapsulation.md",
-    "Pasted image 20241225184423.png",
-    "Pasted image 20241225184344.png",
-    "Pasted image 20241225184301.png",
-    "Screenshot from 2024-12-25 11-48-00.png",
-    "Pasted image 20241225113407.png",
-    "Java",
-    "Pasted image 20241224184228.png",
-    "Pasted image 20241224184108.png",
-    "Django CRM",
-    "DSP"
+    "Java/OOPS"
   ]
 }

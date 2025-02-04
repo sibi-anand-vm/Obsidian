@@ -1,5 +1,4 @@
-### <mark style="background: #FFB86CA6;">Types of Operators:</mark>
-
+## <font color="#f79646"> Types</font>
 1. **Arithmetic Operators**: Used for basic mathematical operations.
     
     - `+` (Addition)
@@ -101,4 +100,4 @@ System.out.println("!(a == b): " + logicalNot);
 ```
 true
 ```
-
+``

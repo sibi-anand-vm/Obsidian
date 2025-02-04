@@ -59,17 +59,15 @@ public class ComparableComparatorExample {
         }
 
         // Using Comparator: Sort by name
-        students.sort(Comparator.comparing(Student::getName));
-        System.out.println("\nSorted by name (Comparator):");
-        for (Student s : students) {
-            System.out.println(s);
-        }
-
-        // Using Comparator: Sort by age
-        students.sort(Comparator.comparingInt(Student::getAge));
-        System.out.println("\nSorted by age (Comparator):");
-        for (Student s : students) {
-            System.out.println(s);
+        Comparator<Student> com= (o1, o2) -> {  
+           if (o1.getAge()> o2.getAge())  
+return 1;  
+           else return -1;  
+       };  
+        Collections.sort(students,com);  
+        System.out.println("\nSorted by age (Comparator):");  
+        for (Student s : students) {  
+            System.out.println(s);  
         }
     }
 }

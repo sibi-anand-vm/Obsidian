@@ -70,3 +70,74 @@ public class HashMapExample {
 }
 
 ```
+
+## <font color="#f79646">Essential methods</font>
+```
+import java.util.*;
+
+public class CollectionsExample {
+    public static void main(String[] args) {
+        // 1. List Example
+        List<String> list = new ArrayList<>();
+        list.add("Apple");
+        list.add("Banana");
+        list.add("Cherry");
+        list.add(1, "Blueberry");
+        System.out.println("List: " + list);
+
+        list.remove("Banana");
+        System.out.println("After removal: " + list);
+
+        System.out.println("Element at index 1: " + list.get(1));
+        System.out.println("List contains 'Apple': " + list.contains("Apple"));
+
+        // 2. Set Example
+        Set<Integer> set = new HashSet<>();
+        set.add(10);
+        set.add(20);
+        set.add(30);
+        set.add(20); // Duplicate, won't be added
+        System.out.println("\nSet: " + set);
+
+        set.remove(10);
+        System.out.println("After removal: " + set);
+        System.out.println("Set contains 30: " + set.contains(30));
+
+        // 3. Map Example
+        Map<Integer, String> map = new HashMap<>();
+        map.put(1, "John");
+        map.put(2, "Jane");
+        map.put(3, "Jack");
+        System.out.println("\nMap: " + map);
+
+        map.remove(2);
+        System.out.println("After removal: " + map);
+
+        System.out.println("Value for key 1: " + map.get(1));
+        System.out.println("Map contains key 3: " + map.containsKey(3));
+        System.out.println("Map contains value 'Jack': " + map.containsValue("Jack"));
+
+        // 4. Queue Example
+        Queue<String> queue = new LinkedList<>();
+        queue.offer("Task1");
+        queue.offer("Task2");
+        queue.offer("Task3");
+        System.out.println("\nQueue: " + queue);
+
+        System.out.println("Polled element: " + queue.poll());
+        System.out.println("Queue after poll: " + queue);
+
+        System.out.println("Peek element: " + queue.peek());
+
+        // 5. Collections Utility Methods
+        Collections.sort(list);
+        System.out.println("\nSorted List: " + list);
+
+        Collections.reverse(list);
+        System.out.println("Reversed List: " + list);
+
+        System.out.println("Frequency of 'Apple': " + Collections.frequency(list, "Apple"));
+        System.out.println("Max element in Set: " + Collections.max(set));
+    }
+}
+```

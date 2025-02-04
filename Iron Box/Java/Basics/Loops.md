@@ -1,4 +1,4 @@
-- **For loop** is used when the number of iterations is known in advance. It includes initialization, condition check, and increment/decrement.
+**For loop** is used when the number of iterations is known in advance. It includes initialization, condition check, and increment/decrement.
 - **While loop** is used when the number of iterations is not known in advance, but you need to check the condition before executing the loop.
 - **Do while loop** is similar to the while loop, but it guarantees at least one execution of the loop, as the condition is checked after executing the loop.
 
