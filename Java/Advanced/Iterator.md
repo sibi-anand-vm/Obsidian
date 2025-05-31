@@ -28,7 +28,7 @@ public class IteratorExample {
         while (iterator.hasNext()) {
             Integer value = iterator.next();
             System.out.println(value);
-
+b
             // Example of using remove to remove the current element (optional)
             if (value == 20) {
                 iterator.remove(); // Removes 20 from the list
