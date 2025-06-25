@@ -21,7 +21,8 @@
     
 - You can access the variable _before_ its line of declaration—but it’ll return `undefined`.
 ```
-console.log(a); // undefined var a = 10;
+console.log(a); // undefined 
+var a = 10;
 ```    
 #### **`let` and `const`**:
 
@@ -31,7 +32,8 @@ console.log(a); // undefined var a = 10;
     
 - Accessing them in the TDZ will throw a **ReferenceError**.
 ```
-console.log(b); // ReferenceError let b = 20;
+console.log(b); // ReferenceError 
+let b = 20;
 ```
 
 > **Note**: You mentioned “cast” instead of `const` a couple of times—just a small typo.

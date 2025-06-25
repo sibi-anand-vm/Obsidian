@@ -8,7 +8,7 @@ In JavaScript, **literals** are fixed values that appear directly in the code. E
     
 - **Array literals**: `[1, 2, 3]`
     
-- **Object literals**: `{ name: "Sibi", age: 22 }`
+- **Object literals**: `{ name: "Jack", age: 22 }`
     
 
 But what you’re really referring to is **template literals**, so let’s focus on that.

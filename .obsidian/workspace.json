@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JS/Promises and Callabacks.md",
+                "file": "JS/ES.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Promises and Callabacks"
+              "title": "ES"
             }
           }
         ]
@@ -85,12 +85,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI SaaS Platform/1.Project setup.md",
+                "file": "JS/ES.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 1.Project setup"
+              "title": "Outgoing links from ES"
             }
           },
           {
@@ -127,8 +127,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 302.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -141,27 +140,34 @@
   },
   "active": "7e8bc7b8258bdebe",
   "lastOpenFiles": [
-    "JS/Prototypes and Classes.md",
-    "JS/Promises and Callabacks.md",
-    "JS/Arrays and Objects.md",
-    "JS/Coercion & ?? & Closure.md",
-    "JS/Functions.md",
-    "JS/Structures and Expressions.md",
     "JS/REST & Spread Operator.md",
-    "JS/ES.md",
-    "JS/Template Literals.md",
+    "JS/DOM.md",
+    "JS/Handlers.md",
     "JS/Strict Mode.md",
+    "JS/Coercion & ?? & Closure.md",
+    "JS/Template Literals.md",
+    "JS/Promises and Callbacks.md",
+    "JS/Prototypes and Classes.md",
+    "JS/Functions.md",
+    "JS/Arrays and Objects.md",
+    "JS/ES.md",
     "JS/Hoisting.md",
+    "JS/Structures and Expressions.md",
     "JS/Variables.md",
+    "C/Basics.md",
+    "Java/Multithreading/Race Condition.md",
+    "C",
+    "Java/Multithreading/Threads.md",
+    "Java/Maven/Maven.md",
+    "Java/Basics/Data Types & Variables.md",
+    "Java/Basics/Type Conversion & Casting.md",
+    "Java/Basics/Java Flow.md",
     "CICD Pipelines/Kubernetes.md",
     "JS",
     "CICD Pipelines/Basics.md",
     "CICD Pipelines/Commands.md",
     "CICD Pipelines/Docker.md",
     "CICD Pipelines/Exercise2.md",
-    "CICD Pipelines/Exercise1.md",
-    "Soft Skills/Self Intro.md",
-    "EDU6/Wireless/CIA3.md",
     "Pasted image 20250429064857.png",
     "Pasted image 20250429064704.png",
     "Pasted image 20250429064413.png",
@@ -169,15 +175,9 @@
     "Pasted image 20250429050606.png",
     "Pasted image 20250429045844.png",
     "Pasted image 20250429045322.png",
-    "Docker/Commands.md",
-    "Soft Skills/Projects.md",
-    "Docker/Docker.md",
     "CICD Pipelines",
-    "Java/Spring/Beans.md",
     "Soft Skills",
-    "Java/Maven/Maven.md",
     "Java/Spring",
-    "Java/Untitled.md",
     "Java/Maven",
     "Pasted image 20250303224956.png",
     "Pasted image 20250303224933.png",
@@ -185,7 +185,6 @@
     "DBMS",
     "EDU6/Antenna",
     "EDU6/Wireless",
-    "EDU6",
-    "Docker"
+    "EDU6"
   ]
 }

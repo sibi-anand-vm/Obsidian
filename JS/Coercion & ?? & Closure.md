@@ -1,4 +1,4 @@
-## 1. **Type Coercion (Not “Cohesion”)**
+## 1. **Type Coercion 
 
 **Type coercion** is the automatic or implicit conversion of values from one data type to another.
 

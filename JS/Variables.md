@@ -7,7 +7,9 @@
     
     - `var` is **function scoped**, not global scoped by default. It only becomes global scoped if declared outside a function.
 ```
-function test() {   var x = 10; } 
+function test() {  
+var x = 10;
+} 
 console.log(x); // Error, x is not defined
 ```
         

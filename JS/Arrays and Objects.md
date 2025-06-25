@@ -38,7 +38,8 @@ const cherry = fruits.find(f => f === "cherry");
 5. **`reduce()`** – Reduces the array to a single value (used for sum, etc.).
     
 ```
-const numbers = [1, 2, 3]; const sum = numbers.reduce((a, b) => a + b, 0); // 6
+const numbers = [1, 2, 3]; 
+const sum = numbers.reduce((a, b) => a + b, 0); // 6
 ```
     
 

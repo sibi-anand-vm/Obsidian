@@ -1,7 +1,7 @@
 ## **Prototypes in JavaScript**
 
 **Definition**: Every JavaScript object has a hidden internal property called `[[Prototype]]` (or `__proto__` in older syntax), which points to another object. This is the foundation of **prototypal inheritance**.
-
+ 
 ### **Why Use Prototypes?**
 
 They allow objects to share properties and methods, saving memory and supporting inheritance.
