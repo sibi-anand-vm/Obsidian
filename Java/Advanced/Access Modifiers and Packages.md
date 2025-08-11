@@ -6,7 +6,7 @@
     - **Private**: Restricts access only within the same class.
     - **Protected**: Allows access within the same package and sub-classes (even if they are in different packages).
     - **Default**: (No modifier) Allows access only within the same package.
-```
+```java
 class Example {
     public String publicVar = "I am Public";           // Accessible everywhere
     private String privateVar = "I am Private";        // Accessible only within this class

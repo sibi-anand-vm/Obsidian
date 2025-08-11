@@ -5,7 +5,7 @@ Dynamic Method Dispatch refers to the process by which a call to an overridden m
 - **How it works**:
     - A superclass reference variable can refer to a subclass object.
     - When a method is called using the reference, the version of the method that corresponds to the object (not the reference) is invoked.
-```
+```java
 class A {
     void display() {
         System.out.println("Display method of Class A");

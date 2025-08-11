@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JS/Handlers.md",
+                "file": "Node&ExpressJS/BackEnd Must follows.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Handlers"
+              "title": "BackEnd Must follows"
             }
           }
         ]
@@ -85,12 +85,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JS/Handlers.md",
+                "file": "ReactJS/Setup TailwindCSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Handlers"
+              "title": "Outgoing links from Setup TailwindCSS"
             }
           },
           {
@@ -114,20 +114,22 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI SaaS Platform/1.Project setup.md",
-                "followCursor": false,
+                "file": "Node&ExpressJS/BackEnd Must follows.md",
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1.Project setup"
+              "title": "Outline of BackEnd Must follows"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 302.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -140,33 +142,40 @@
   },
   "active": "7e8bc7b8258bdebe",
   "lastOpenFiles": [
-    "JS/DOM.md",
-    "Django CRM/4.Built basic app.md",
+    "JS/Arrays and Objects.md",
+    "JS/Functions.md",
+    "Node&ExpressJS/BackEnd Must follows.md",
+    "ReactJS/Conditional Rendering.md",
+    "Final Year Project Work/Literature survey.md",
+    "Final Year Project Work/Top 8 Refs.md",
+    "Final Year Project Work",
+    "ReactJS/Hooks/React useContext.md",
+    "ReactJS/Vite React Project.md",
+    "ReactJS/React Styling.md",
+    "ReactJS/Component Lifecycle.md",
+    "ReactJS/Form Handling.md",
+    "ReactJS/React Router.md",
+    "ReactJS/Hooks/useMemo and useCallback.md",
+    "ReactJS/Hooks/React useCallback.md",
+    "ReactJS/Hooks/useMemo.md",
+    "ReactJS/Hooks/React useRef.md",
+    "ReactJS/Hooks/React UseEffect.md",
+    "ReactJS/Hooks/Hooks.md",
+    "ReactJS/Hooks",
+    "ReactJS/ReactJS Overview.md",
+    "ReactJS/User Project.md",
+    "Node&ExpressJS",
+    "ReactJS/State.md",
+    "ReactJS/Setup TailwindCSS.md",
+    "Pasted image 20250728235919.png",
+    "Pasted image 20250728235901.png",
+    "ReactJS/Props.md",
+    "ReactJS/Components.md",
+    "ReactJS/Simple HTML React Page.md",
     "Django CRM/8.Database model.md",
-    "Django CRM/10.Bootstrap Tables.md",
-    "Django CRM/11.Individual record.md",
-    "Django CRM/2.MySQL Configuration.md",
-    "Django CRM/1.Install & setup.md",
-    "Java/Basics/Java Flow.md",
-    "Java/Advanced/CastingandObjectmethods.md",
-    "Java/Advanced/Access Modifiers and Packages.md",
-    "FSD GFG/HTML.md",
-    "FSD GFG/Basics.md",
+    "ReactJS",
     "FSD GFG",
-    "DBMS/Normalisation.md",
     "FSD GFG",
-    "JS/Handlers.md",
-    "JS/Promises and Callbacks.md",
-    "JS/Coercion and Nullish and  Closure.md",
-    "JS/Variables.md",
-    "Java/Advanced/Iterator.md",
-    "Java/Advanced/DMD and final keyword.md",
-    "Java/Advanced/Enum.md",
-    "Interview/ZOHO.md",
-    "System Design/LLD/Class Diagram.md",
-    "Bootstrap/Bootstrap.md",
-    "C/Basics.md",
-    "Java/Collections/Comparable and Comparator.md",
     "Pasted image 20250716141959.png",
     "Pasted image 20250716141654.png",
     "Pasted image 20250716140413.png",
@@ -175,16 +184,9 @@
     "Pasted image 20250716105306.png",
     "Pasted image 20250716104557.png",
     "Pasted image 20250716102057.png",
-    "Pasted image 20250716084838.png",
-    "Pasted image 20250716082026.png",
     "Interview",
-    "Java/OOPS/Interface.md",
     "System Design/LLD",
     "System Design",
-    "C",
-    "JS",
-    "CICD Pipelines",
-    "Soft Skills",
-    "Java/Spring"
+    "C"
   ]
 }
