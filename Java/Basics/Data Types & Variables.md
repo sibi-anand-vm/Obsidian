@@ -19,7 +19,7 @@
     - **Character Type**:
         - `char` (2 bytes): Stores a single character within single quotes (`'a'`).
     - **Boolean Type**:
-        - `boolean` (1 bit): Stores `true` or `false`.
+        - `boolean` (1 byte): Stores `true` or `false`.
 ![[Pasted image 20241225184344.png]]
 See the example code:
 ```
@@ -81,7 +81,7 @@ class BinaryHexExample {
 
 In Java, you can increment a `char` value because `char` is internally represented as a numeric value (its Unicode value). When you increment a `char`, its Unicode value increases, resulting in the next character in the Unicode sequence.
 
-```
+```java
 class CharIncrementExample {
     public static void main(String[] args) {
         char letter = 'A'; // Initial character
@@ -103,4 +103,81 @@ class CharIncrementExample {
 Initial char: A  
 After increment: B  
 After incrementing by 3: E
+```
+
+## Conversions from One format to other:
+```java
+class NumberConversionExample {
+    public static void main(String[] args) {
+        // Integer value
+        int decimal = 42;
+
+        // Decimal -> Binary, Octal, Hex
+        String binary = Integer.toBinaryString(decimal);
+        String octal = Integer.toOctalString(decimal);
+        String hex = Integer.toHexString(decimal);
+
+        System.out.println("Decimal: " + decimal);
+        System.out.println("Decimal -> Binary: " + binary);
+        System.out.println("Decimal -> Octal: " + octal);
+        System.out.println("Decimal -> Hex: " + hex);
+
+        // Binary -> Decimal, Octal, Hex
+        String binaryStr = "101010"; // binary for 42
+        int binToDec = Integer.parseInt(binaryStr, 2);
+        String binToOct = Integer.toOctalString(binToDec);
+        String binToHex = Integer.toHexString(binToDec);
+
+        System.out.println("\nBinary: " + binaryStr);
+        System.out.println("Binary -> Decimal: " + binToDec);
+        System.out.println("Binary -> Octal: " + binToOct);
+        System.out.println("Binary -> Hex: " + binToHex);
+
+        // Hex -> Decimal, Binary, Octal
+        String hexStr = "2A"; // hex for 42
+        int hexToDec = Integer.parseInt(hexStr, 16);
+        String hexToBin = Integer.toBinaryString(hexToDec);
+        String hexToOct = Integer.toOctalString(hexToDec);
+
+        System.out.println("\nHex: " + hexStr);
+        System.out.println("Hex -> Decimal: " + hexToDec);
+        System.out.println("Hex -> Binary: " + hexToBin);
+        System.out.println("Hex -> Octal: " + hexToOct);
+
+        // Octal -> Decimal, Binary, Hex
+        String octStr = "52"; // octal for 42
+        int octToDec = Integer.parseInt(octStr, 8);
+        String octToBin = Integer.toBinaryString(octToDec);
+        String octToHex = Integer.toHexString(octToDec);
+
+        System.out.println("\nOctal: " + octStr);
+        System.out.println("Octal -> Decimal: " + octToDec);
+        System.out.println("Octal -> Binary: " + octToBin);
+        System.out.println("Octal -> Hex: " + octToHex);
+    }
+}
+
+```
+
+## Sample output
+```java
+Decimal: 42
+Decimal -> Binary: 101010
+Decimal -> Octal: 52
+Decimal -> Hex: 2a
+
+Binary: 101010
+Binary -> Decimal: 42
+Binary -> Octal: 52
+Binary -> Hex: 2a
+
+Hex: 2A
+Hex -> Decimal: 42
+Hex -> Binary: 101010
+Hex -> Octal: 52
+
+Octal: 52
+Octal -> Decimal: 42
+Octal -> Binary: 101010
+Octal -> Hex: 2a
 ```

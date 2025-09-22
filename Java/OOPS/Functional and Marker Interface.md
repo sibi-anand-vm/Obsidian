@@ -51,3 +51,37 @@ public class BuiltInFunctionalInterface {
 1. **Supports Lambda Expressions**: Enables functional programming in Java.
 2. **Readability**: Simplifies code by reducing boilerplate.
 3. **Reusability**: Predefined functional interfaces in `java.util.function` can be reused for various tasks.
+
+## 🔹 What is a Marker Interface?
+
+A **marker interface** is an interface with **no methods or fields** inside it.  
+It is simply used to **mark** or **tag** a class with metadata, so the JVM or frameworks can treat those classes differently.
+
+👉 In short: **It gives a "label" to a class without forcing it to implement any method.**
+
+---
+
+## 🔹 Examples of Marker Interfaces in Java
+
+1. **`Serializable`** → tells JVM that this class’s objects can be serialized (converted into byte stream).
+    
+2. **`Cloneable`** → tells JVM that this class allows cloning via `.clone()`.
+    
+3. **`Remote`** (in RMI) → marks classes that can be used remotely.
+
+## 🔹 Marker Interfaces vs Annotations
+
+- Before **Java 5**, marker interfaces were widely used.
+    
+- Now, we mostly use **annotations** (`@Override`, `@FunctionalInterface`, `@Entity`) as they are **more powerful**.
+    
+
+---
+
+👉 So, a **marker interface = empty interface used to tag classes for JVM/framework behavior.**
+
+## 🔹 Are annotations MANDATORY?
+mandatory?
+
+👉 **No, they are not mandatory.**  
+They are optional, but **highly recommended** because they help the compiler catch mistakes.

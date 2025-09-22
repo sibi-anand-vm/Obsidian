@@ -5,9 +5,10 @@ The **Collection in Java** is a framework that provides an architecture to sto
 Java Collections can achieve all the operations that you perform on a data such as searching, sorting, insertion, manipulation, and deletion.
 
 Java Collection means a single unit of objects. Java Collection framework provides many interfaces (Set, List, Queue, Deque) and classes ([ArrayList](https://www.javatpoint.com/java-arraylist), Vector, [LinkedList](https://www.javatpoint.com/java-linkedlist), [PriorityQueue](https://www.javatpoint.com/java-priorityqueue), HashSet, LinkedHashSet, TreeSet).
+![[Pasted image 20250821164140.png]]
 ![[Pasted image 20241230224027.png]]
 **ArrayList Example**
-```
+```java
 import java.util.ArrayList;
 
 public class ArrayListExample {
@@ -23,7 +24,7 @@ public class ArrayListExample {
 
 ```
 **HashSet Example**
-```
+```java
 import java.util.HashSet;
 
 public class HashSetExample {
@@ -39,7 +40,7 @@ public class HashSetExample {
 
 ```
 **LinkedList Example**
-```
+```java
 import java.util.LinkedList;
 
 public class LinkedListExample {
@@ -55,7 +56,7 @@ public class LinkedListExample {
 
 ```
 **HashMap Example**
-```
+```java
 import java.util.HashMap;
 
 public class HashMapExample {
@@ -70,9 +71,28 @@ public class HashMapExample {
 }
 
 ```
+## Comparison of Map Implementations
 
+|Map Class|Null Key Support|Null Value Support|Notes|
+|---|---|---|---|
+|**HashMap**|✅ 1 null key allowed|✅ Multiple null values allowed|Most commonly used general-purpose map|
+|**LinkedHashMap**|✅ 1 null key allowed|✅ Multiple null values allowed|Preserves insertion order|
+|**TreeMap**|❌ Not allowed|✅ Multiple null values allowed|Sorted by keys, comparator required for custom ordering|
+|**Hashtable**|❌ Not allowed|❌ Not allowed|Legacy class, synchronized (slower than ConcurrentHashMap)|
+|**ConcurrentHashMap**|❌ Not allowed|❌ Not allowed|Thread-safe, high-performance concurrency|
+|**ConcurrentSkipListMap**|❌ Not allowed|❌ Not allowed|Concurrent + sorted map, based on skip list|
+
+---
+
+### 🔑 Quick Interview Takeaways
+
+- **HashMap & LinkedHashMap** → **one null key**, **multiple null values**.
+    
+- **TreeMap** → **no null key**, but **multiple null values**.
+    
+- **Hashtable & Concurrent Maps** → **no null keys, no null values**.
 ## <font color="#f79646">Essential methods</font>
-```
+```java
 import java.util.*;
 
 public class CollectionsExample {

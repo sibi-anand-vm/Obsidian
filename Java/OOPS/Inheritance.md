@@ -73,3 +73,41 @@ public class InheritanceExample {
 }
 
 ```
+Java designers (James Gosling & team) avoided it mainly because of the **Diamond Problem**.
+
+### 🔹 Java’s Approach
+
+To avoid this confusion:
+- **Classes** in Java support **single inheritance only**.
+- But **Interfaces** can be inherited from **multiple sources**.
+### 🔹 Multiple Inheritance with Interfaces (Safe)
+```
+interface A {
+    default void show() { System.out.println("From A"); }
+}
+
+interface B {
+    default void show() { System.out.println("From B"); }
+}
+
+class C implements A, B {
+    // Must resolve conflict manually
+    public void show() {
+        A.super.show(); // explicitly calling A's show
+        B.super.show(); // explicitly calling B's show
+    }
+}
+
+public class Test {
+    public static void main(String[] args) {
+        C obj = new C();
+        obj.show();
+    }
+}
+```
+
+### 🔑 Summary
+
+- **No multiple inheritance for classes** → to avoid ambiguity, complexity, and simplify design.
+    
+- **Yes for interfaces** → Java allows multiple inheritance of interfaces, and ambiguity must be resolved explicitly.

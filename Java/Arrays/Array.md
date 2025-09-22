@@ -7,7 +7,7 @@
 - Arrays can only store elements of a single data type, which is a key limitation.
 - For storing elements of different data types, other Java collections like `ArrayList` or `HashMap` are recommended.
 - Arrays are fundamental but lack the flexibility of dynamic
-```
+```java
 package Arrays;  
 import java.util.Scanner;  
   

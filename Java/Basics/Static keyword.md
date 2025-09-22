@@ -101,6 +101,6 @@ Static blocks will get executed only if class if loaded and executed only once i
 ```
 4. **When It’s the Main Class**:  
     If the class contains the `main` method and is the entry point of the program:
-	```
+```
 	public static void main(String[] args) {     // Class is loaded here }
 ```

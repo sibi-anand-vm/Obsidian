@@ -1,4 +1,4 @@
-i### ==**Upcasting and Downcasting**==
+### ==**Upcasting and Downcasting**==
 
 - **Upcasting**: Casting a subclass reference to a superclass type.
 - **Downcasting**: Casting a superclass reference to a subclass type.

@@ -7,7 +7,7 @@ A **race condition** occurs in a multi-threaded or concurrent environment when t
 ### Example:
 
 Consider two threads trying to increment a shared variable:
-```
+```java
 class Counter {
     int count = 0;
 
