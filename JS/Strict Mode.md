@@ -15,7 +15,7 @@ You enable it using the string:
 It prevents or throws errors for:
 
 1. **Undeclared variables**
-```
+```js
 "use strict"; x = 10; // ReferenceError
 ```
 2. **Re-declaring variables with `var`**

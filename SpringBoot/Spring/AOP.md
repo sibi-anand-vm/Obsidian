@@ -142,11 +142,7 @@ execution(public * com.example.Product.controller.ProductController.getAll())
 ## ✅ In Simple Words
 
 - Your **LoggingAspect** = Aspect.
-    
 - `getAll()` execution = Join Point.
-    
 - `log()` method = Advice.
-    
 - `execution(...)` = Pointcut.
-    
 - Spring runtime linking = Weaving.

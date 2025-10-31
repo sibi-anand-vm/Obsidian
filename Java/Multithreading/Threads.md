@@ -1,5 +1,8 @@
-# Java Threads
-Typically, we can define threads as a subprocess with lightweight with the smallest unit of processes and also has separate paths of execution. The main advantage of multiple threads is efficiency (allowing multiple things at the same time). For example, in MS Word. one thread automatically formats the document while another thread is taking user input. Another advantage is quick response, if we use multiple threads in a process and if a thread gets stuck due to lack of resources or an exception, the other threads can continue to execution, allowing the process (which represents an application) to continue to be responsive.
+A **thread** is the smallest unit of execution within a process. It represents a single sequence of programmed instructions that can run independently and, often, simultaneously with other threads in the same program.
+
+## What a Thread Does
+
+A thread performs a specific part of a program’s work. Each thread runs its own sequence of instructions, maintains its **program counter** (current instruction), **stack** (local variables), and **registers** (temporary data), but shares memory and resources with other threads in the same process.
 
 ![Threads in a Shared Memory Environment in OS](https://media.geeksforgeeks.org/wp-content/uploads/20220228232738/InputThread.jpg)
 

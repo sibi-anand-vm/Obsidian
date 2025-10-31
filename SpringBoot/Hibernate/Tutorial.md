@@ -91,13 +91,13 @@ public class Main {
         Session ss = sf.openSession();
 
         Transaction trans = ss.beginTransaction();
-        ss.persist(s1);   // Insert student into DB
+        ss.persist(s1);   
         trans.commit();
 
         ss.close();
         sf.close();
 
-        System.out.println("✅ Student saved successfully!");
+        System.out.println(" Student saved successfully!");
     }
 }
 

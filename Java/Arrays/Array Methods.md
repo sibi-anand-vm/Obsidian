@@ -9,7 +9,8 @@
 - **sort()**: Sorts an array in ascending order.
 - **sort(fromIndex, toIndex)**: Sorts a specified portion of an array.
 - **toString()**: Converts an array to a string representation.
-```
+- 
+```java
 import java.util.*;
 
 public class ArrayMethodsExample {
