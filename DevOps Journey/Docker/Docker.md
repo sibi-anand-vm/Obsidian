@@ -66,7 +66,7 @@ Docker image is like a blueprint or a template. It's a read-only file that conta
 
 1. Write a Dockerfile to define the environment.
     
-2. Build an image from the Dockerfile.
+2. Build an image from the Dockerfile.(When you run the command `docker build`, you are instructing the **Docker CLI** to send your **Dockerfile** and the "context" (your project files) to the **Docker Daemon**. The Daemon then uses the Builder to execute the instructions.)
     
 3. Run one or more containers from that image.
     
